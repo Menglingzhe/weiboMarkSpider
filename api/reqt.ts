@@ -13,6 +13,7 @@ async function getIndex(url) {
       'X-Requested-With': 'XMLHttpRequest',
     },
   }).catch(function (error) {
+    console.log('getIndex err')
     if (error.response) {
       // 请求成功发出且服务器也响应了状态码，但状态代码超出了 2xx 的范围
       console.log(error.response.data);
@@ -28,7 +29,8 @@ async function getIndex(url) {
       console.log('Error', error.message);
     }
     console.log(error.config);
-  });;
+    return null
+  });
   console.log('getindex api is run（抓了一列id）')
   return response.data
 }
@@ -58,6 +60,7 @@ async function commentsHotflow(url) {
       console.log('Error', error.message);
     }
     console.log(error.config);
+    return null
   });
   console.log('getArticle api is run（抓了一列评论）')
   return response.data

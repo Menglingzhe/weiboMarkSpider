@@ -42,6 +42,4 @@ async function getList(cards) {
   return cardsItems
 }
 
-
-
 exports.getList = getList

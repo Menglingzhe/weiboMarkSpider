@@ -29,12 +29,9 @@ function saveWeiboDataToFile(data, fileName) {
   });
 }
 
-// 定义一个延时函数，用于延时执行抓取页面内容的函数
-function delayedCrawlPage(crawlPage) {
-  const delay = 5000; // 延时时间，单位为毫秒
-  setTimeout(() => {
-    crawlPage();
-  }, delay);
+async function delayedCrawlPage(ms, fn, ...args) {
+  await new Promise(resolve => setTimeout(resolve, ms));
+  return await fn(...args);
 }
 
 exports.saveWeiboDataToFile = saveWeiboDataToFile

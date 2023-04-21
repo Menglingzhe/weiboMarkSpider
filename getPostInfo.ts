@@ -13,13 +13,17 @@ async function getPostInfo(postId, callback) {
     url = `${url}&max_id=${max_id}`
     const response = await api.commentsHotflow(url)
 
-    if (response.ok !== 1) {
+    if (response.ok === 0) {
+      console.log(`${postId}no mark`)
+      break
+    } else if (response.ok !== 1) {
       callback(new Error(`${postId} :mark response.ok !== 1`), null);
       break;
     } else if (response.data.total_number === 0 || response.data.length == 0) {
-      console.log('no mark')
+      console.log(`${postId}no mark`)
       break;
     }
+    console.log(`${postId}畅通`)
 
     let markList = response.data.data
     max_id = response.data.max_id

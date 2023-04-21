@@ -7,7 +7,6 @@ const baseUrl = spiderInfo.baseUrl;
 // 获取指定时间之前的微博主贴的 ID 列表
 async function getPostIdsByDate(uid, targetDateStr, callback) {
   let ids = [];
-  let mBlogger = ''
   let fileData = {
     'data': []
   }
@@ -19,7 +18,11 @@ async function getPostIdsByDate(uid, targetDateStr, callback) {
 
   while (next) {
     url = `${url}&since_id=${since_id}`
-    let rsp = await api.getIndex(url)
+    let rsp = {}
+
+    rsp = await tools.delayedCrawlPage(1000, api.getIndex, url)
+    // console.log('此时rsp', rsp)
+    // let rsp = await  api.getIndex(url)
     //验证返回列表
     if (rsp.ok !== 1) {
       callback(new Error('Failed to fetch rsp.data.ok !== 1'), null);
@@ -37,12 +40,9 @@ async function getPostIdsByDate(uid, targetDateStr, callback) {
       console.log('false', createdAt)
       next = false;
       tools.saveWeiboDataToFile(fileData, `${fileData.data[0].blogger}.json`)
-      // tools.saveWeiboDataToFile(fileData, `${}.json`)
       callback(null, ids);
       return;
     }
-    console.log('true', createdAt)
-
 
     let weiBoRow = await getList.getList(cards)
     if (weiBoRow != null) {
@@ -50,12 +50,9 @@ async function getPostIdsByDate(uid, targetDateStr, callback) {
     }
 
     since_id = rsp.data.cardlistInfo.since_id
-    // console.log(ids)
+    
   }
 
 }
-
-
-
 
 exports.getPostIdsByDate = getPostIdsByDate
