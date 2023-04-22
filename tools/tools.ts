@@ -1,10 +1,12 @@
-const fs = require('fs');
-const path = require('path');
+// const fs = require('fs');
+// const path = require('path');
+import * as fs from "fs";
+import * as path from "path";
 const chineseAndNumberRegex = /[\u4e00-\u9fa5]+/g;
 
 //简单数据清洗
 // 使用replace函数提取中文和数字
-function refreshWord(totalMark) {
+export function refreshWord(totalMark:any) {
   if (totalMark.length != 0 && totalMark != null) {
     totalMark = totalMark.match(chineseAndNumberRegex)
     if (totalMark == null) {
@@ -17,7 +19,7 @@ function refreshWord(totalMark) {
 }
 
 //保存为文件
-function saveWeiboDataToFile(data, fileName) {
+export function saveWeiboDataToFile(data:any, fileName:string) {
   console.log('=================save file:', fileName)
   const filePath = path.join(__dirname, fileName);
   fs.writeFile(filePath, JSON.stringify(data), err => {
@@ -29,11 +31,11 @@ function saveWeiboDataToFile(data, fileName) {
   });
 }
 
-async function delayedCrawlPage(ms, fn, ...args) {
+export async function delayedCrawlPage(ms:number, fn:any, ...args:any[]) {
   await new Promise(resolve => setTimeout(resolve, ms));
   return await fn(...args);
 }
 
-exports.saveWeiboDataToFile = saveWeiboDataToFile
-exports.refreshWord = refreshWord
-exports.delayedCrawlPage = delayedCrawlPage
+// exports.saveWeiboDataToFile = saveWeiboDataToFile
+// exports.refreshWord = refreshWord
+// exports.delayedCrawlPage = delayedCrawlPage

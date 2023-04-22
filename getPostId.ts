@@ -1,13 +1,19 @@
-const spiderInfo = require("./tools/spiderInfo.js")
-const api = require("./api/reqt")
-const getList = require("./getList")
-const tools = require("./tools/tools.js")
-const baseUrl = spiderInfo.baseUrl;
+// const spiderInfo = require("./tools/spiderInfo.js")
+// const api = require("./api/reqt")
+// const getList = require("./getList")
+// const tools = require("./tools/tools.js")
+
+// const baseUrl = spiderInfo.baseUrl;
+
+import {getList} from "./getList"
+import { baseUrl } from './tools/spiderInfo'
+import { getIndex } from './api/reqt'
+import { delayedCrawlPage, saveWeiboDataToFile } from './tools/tools'
 
 // 获取指定时间之前的微博主贴的 ID 列表
-async function getPostIdsByDate(uid, targetDateStr, callback) {
-  let ids = [];
-  let fileData = {
+export async function getPostIdsByDate(uid: string, targetDateStr: string, callback:any) {
+  let ids:string[]=[];
+  let fileData:any = {
     'data': []
   }
 
@@ -18,9 +24,9 @@ async function getPostIdsByDate(uid, targetDateStr, callback) {
 
   while (next) {
     url = `${url}&since_id=${since_id}`
-    let rsp = {}
+    let rsp:any = {}
 
-    rsp = await tools.delayedCrawlPage(1000, api.getIndex, url)
+    rsp = await delayedCrawlPage(1000, getIndex, url)
     // console.log('此时rsp', rsp)
     // let rsp = await  api.getIndex(url)
     //验证返回列表
@@ -39,20 +45,18 @@ async function getPostIdsByDate(uid, targetDateStr, callback) {
     if (createdAt < targetDate) {
       console.log('false', createdAt)
       next = false;
-      tools.saveWeiboDataToFile(fileData, `${fileData.data[0].blogger}.json`)
+      saveWeiboDataToFile(fileData, `${fileData.data[0].blogger}.json`)
       callback(null, ids);
       return;
     }
 
-    let weiBoRow = await getList.getList(cards)
+    let weiBoRow = await getList(cards)
     if (weiBoRow != null) {
       fileData.data.push(...weiBoRow)
     }
 
     since_id = rsp.data.cardlistInfo.since_id
-    
+
   }
 
 }
-
-exports.getPostIdsByDate = getPostIdsByDate

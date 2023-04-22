@@ -1,14 +1,18 @@
-const axios = require('axios');
-const cookie = require('../tools/cookie-para');
-const spiderInfo = require("../tools/spiderInfo")
+// const axios = require('axios');
+import axios from "axios";
+// const cookie = require('../tools/cookie-para');
+import { cookie } from "../tools/cookie-para";
+
+import { uid } from "../tools/spiderInfo";
+// const spiderInfo = require("../tools/spiderInfo")
 /**
  * 发起列表链接
  **/
-async function getIndex(url) {
-  const response = await axios.get(url, {
+export async function getIndex(url:string) {
+  const response:any = await axios.get(url, {
     headers: {
       Cookie: cookie,
-      Referer: `https://m.weibo.cn/u/${spiderInfo.uid}`,
+      Referer: `https://m.weibo.cn/u/${uid}`,
       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
       'X-Requested-With': 'XMLHttpRequest',
     },
@@ -36,11 +40,11 @@ async function getIndex(url) {
 }
 
 //评论抓取
-async function commentsHotflow(url) {
-  const response = await axios.get(url, {
+export async function commentsHotflow(url:string) {
+  const response:any = await axios.get(url, {
     headers: {
       Cookie: cookie,
-      Referer: `https://m.weibo.cn/u/${spiderInfo.uid}`,
+      Referer: `https://m.weibo.cn/u/${uid}`,
       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
       'X-Requested-With': 'XMLHttpRequest',
     },
@@ -67,5 +71,5 @@ async function commentsHotflow(url) {
 }
 
 
-exports.commentsHotflow = commentsHotflow
-exports.getIndex = getIndex
+// exports.commentsHotflow = commentsHotflow
+// exports.getIndex = getIndex
