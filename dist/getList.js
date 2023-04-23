@@ -39,32 +39,40 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.getList = void 0;
 var tools_1 = require("./tools/tools");
 var getPostInfo_1 = require("./getPostInfo");
-function getList(cards) {
+//根据主贴id爬取每条微博以及评论
+function getList(cards, callback) {
     return __awaiter(this, void 0, void 0, function () {
-        var cardsItems, i, card, mblog, id, totalMark;
-        return __generator(this, function (_a) {
-            switch (_a.label) {
+        var cardsItems, i, card, mblog, id, totalMark, mainArticle, _a;
+        return __generator(this, function (_b) {
+            switch (_b.label) {
                 case 0:
                     cardsItems = [];
-                    i = 0;
-                    _a.label = 1;
+                    _b.label = 1;
                 case 1:
-                    if (!(i < cards.length)) return [3 /*break*/, 4];
+                    _b.trys.push([1, 6, , 7]);
+                    i = 0;
+                    _b.label = 2;
+                case 2:
+                    if (!(i < cards.length)) return [3 /*break*/, 5];
                     card = cards[i];
-                    if (!(card.card_type === 9)) return [3 /*break*/, 3];
+                    if (!(card.card_type === 9)) return [3 /*break*/, 4];
                     mblog = card.mblog;
                     id = mblog.id;
                     return [4 /*yield*/, (0, getPostInfo_1.getPostInfo)(id, function (err, id) {
                             //评论
-                            console.log("enter mark success");
+                            console.log("enter mark success：", id);
                             if (err) {
-                                console.error("markErr", err);
+                                console.error("markErr:id:".concat(id), err);
                                 // return;
                             }
                         })];
-                case 2:
-                    totalMark = _a.sent();
+                case 3:
+                    totalMark = _b.sent();
                     totalMark = (0, tools_1.refreshWord)(totalMark);
+                    mainArticle = (0, tools_1.refreshWord)(mblog.text);
+                    if (mblog.reprint_cmt_count)
+                        //添加转发内容
+                        mainArticle += (0, tools_1.refreshWord)(mblog.reprint_cmt_count.text);
                     if (totalMark.length > 10) {
                         // console.log('enter get mark', totalMark)
                         cardsItems.push({
@@ -75,16 +83,21 @@ function getList(cards) {
                             repostsCount: mblog.reposts_count,
                             likeCount: mblog.attitudes_count,
                             picCount: mblog.pic_num,
-                            articel: (0, tools_1.refreshWord)(mblog.text),
+                            articel: mainArticle,
                             totalMark: totalMark,
                         });
                         // console.log('push',cardsItems)
                     }
-                    _a.label = 3;
-                case 3:
+                    _b.label = 4;
+                case 4:
                     i++;
-                    return [3 /*break*/, 1];
-                case 4: 
+                    return [3 /*break*/, 2];
+                case 5: return [3 /*break*/, 7];
+                case 6:
+                    _a = _b.sent();
+                    //抛出错误，这一列不要了
+                    return [2 /*return*/, cardsItems];
+                case 7: 
                 // console.log('finish item stablish', cardsItems)
                 return [2 /*return*/, cardsItems];
             }
@@ -92,4 +105,3 @@ function getList(cards) {
     });
 }
 exports.getList = getList;
-// exports.getList = getList

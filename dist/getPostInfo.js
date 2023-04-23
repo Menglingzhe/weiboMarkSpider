@@ -37,11 +37,9 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getPostInfo = void 0;
-// const spiderInfo = require("./tools/spiderInfo.js");
-// const baseUrl = spiderInfo.baseUrl;
 var spiderInfo_1 = require("./tools/spiderInfo");
-// const api = require("./api/reqt");
 var reqt_1 = require("./api/reqt");
+var tools_1 = require("./tools/tools");
 // 获取微博主贴的详细信息和评论内容 comment ==false
 function getPostInfo(postId, callback) {
     return __awaiter(this, void 0, void 0, function () {
@@ -57,35 +55,41 @@ function getPostInfo(postId, callback) {
                     if (!(max_id != 0)) return [3 /*break*/, 3];
                     if (max_id == 1)
                         max_id = 0;
-                    url = "".concat(url, "&max_id=").concat(max_id);
-                    return [4 /*yield*/, (0, reqt_1.commentsHotflow)(url)];
+                    return [4 /*yield*/, (0, tools_1.delayedCrawlPage)(spiderInfo_1.commentDelay, reqt_1.commentsHotflow, url + "&max_id=".concat(max_id))];
                 case 2:
                     response = _a.sent();
-                    if (response.ok === 0) {
-                        console.log("".concat(postId, "no mark"));
-                        return [3 /*break*/, 3];
-                    }
-                    else if (response.ok !== 1) {
-                        callback(new Error("".concat(postId, " :mark response.ok !== 1")), null);
-                        return [3 /*break*/, 3];
-                    }
-                    else if (response.data.total_number === 0 || response.data.length == 0) {
-                        console.log("".concat(postId, "no mark"));
-                        return [3 /*break*/, 3];
-                    }
-                    console.log("".concat(postId, "\u7545\u901A"));
-                    markList = response.data.data;
-                    max_id = response.data.max_id;
-                    // console.log(max_id , response.data.max_id)
-                    markList.forEach(function (item) {
-                        totalMark += item.text;
-                        if (item.comments !== false) {
-                            //二级回复
-                            for (var i = 0; i < item.comments.length; i++) {
-                                totalMark += item.comments[i].text;
-                            }
+                    try {
+                        //抛出评论未回复错误
+                        // if (response.ok === 0) {
+                        if (!response.ok) {
+                            return [3 /*break*/, 3];
                         }
-                    });
+                        else if (response.ok !== 1) {
+                            callback(new Error("".concat(postId, " :mark response.ok !== 1")), null);
+                            return [3 /*break*/, 3];
+                        }
+                        else if (response.data.total_number === 0 ||
+                            response.data.length == 0) {
+                            console.log("".concat(postId, "no mark"));
+                            return [3 /*break*/, 3];
+                        }
+                        console.log("".concat(postId, "\u7545\u901A"));
+                        markList = response.data.data;
+                        max_id = response.data.max_id;
+                        // console.log(max_id , response.data.max_id)
+                        markList.forEach(function (item) {
+                            totalMark += item.text;
+                            if (item.comments !== false) {
+                                //二级回复
+                                for (var i = 0; i < item.comments.length; i++) {
+                                    totalMark += item.comments[i].text;
+                                }
+                            }
+                        });
+                    }
+                    catch (_b) {
+                        return [2 /*return*/, totalMark];
+                    }
                     return [3 /*break*/, 1];
                 case 3: return [2 /*return*/, totalMark];
             }
@@ -93,4 +97,3 @@ function getPostInfo(postId, callback) {
     });
 }
 exports.getPostInfo = getPostInfo;
-// exports.getPostInfo = getPostInfo

@@ -1,5 +1,3 @@
-// const fs = require('fs');
-// const path = require('path');
 import * as fs from "fs";
 import * as path from "path";
 const chineseAndNumberRegex = /[\u4e00-\u9fa5]+/g;
@@ -36,6 +34,7 @@ export async function delayedCrawlPage(ms:number, fn:any, ...args:any[]) {
   return await fn(...args);
 }
 
-// exports.saveWeiboDataToFile = saveWeiboDataToFile
-// exports.refreshWord = refreshWord
-// exports.delayedCrawlPage = delayedCrawlPage
+
+export function saveToSql(Item:any[]) {
+  
+}

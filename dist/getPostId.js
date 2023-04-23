@@ -1,8 +1,4 @@
 "use strict";
-// const spiderInfo = require("./tools/spiderInfo.js")
-// const api = require("./api/reqt")
-// const getList = require("./getList")
-// const tools = require("./tools/tools.js")
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -41,7 +37,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getPostIdsByDate = void 0;
-// const baseUrl = spiderInfo.baseUrl;
 var getList_1 = require("./getList");
 var spiderInfo_1 = require("./tools/spiderInfo");
 var reqt_1 = require("./api/reqt");
@@ -49,62 +44,93 @@ var tools_1 = require("./tools/tools");
 // 获取指定时间之前的微博主贴的 ID 列表
 function getPostIdsByDate(uid, targetDateStr, callback) {
     return __awaiter(this, void 0, void 0, function () {
-        var ids, fileData, next, targetDate, url, since_id, rsp, cards, createdAt, weiBoRow;
-        var _a;
-        return __generator(this, function (_b) {
-            switch (_b.label) {
+        var ids, fileData, errNum, next, targetDate, url, since_id, createdAt, rsp, cards, weiBoRow, _a;
+        var _b;
+        return __generator(this, function (_c) {
+            switch (_c.label) {
                 case 0:
                     ids = [];
                     fileData = {
-                        'data': []
+                        data: [],
                     };
+                    errNum = 0;
                     next = true;
                     targetDate = new Date(targetDateStr);
                     url = "".concat(spiderInfo_1.baseUrl, "/api/container/getIndex?type=uid&value=").concat(uid, "&containerid=107603").concat(uid);
-                    since_id = '0';
-                    _b.label = 1;
+                    since_id = "0";
+                    createdAt = new Date();
+                    _c.label = 1;
                 case 1:
-                    if (!next) return [3 /*break*/, 4];
-                    url = "".concat(url, "&since_id=").concat(since_id);
+                    if (!next) return [3 /*break*/, 7];
                     rsp = {};
-                    return [4 /*yield*/, (0, tools_1.delayedCrawlPage)(1000, reqt_1.getIndex, url)
-                        // console.log('此时rsp', rsp)
-                        // let rsp = await  api.getIndex(url)
-                        //验证返回列表
-                    ];
+                    if (errNum > 100) {
+                        console.log("进行100次重复请求无果,准备退出");
+                        console.log("export url:", url + "&since_id=".concat(since_id));
+                        return [3 /*break*/, 7];
+                    }
+                    _c.label = 2;
                 case 2:
-                    rsp = _b.sent();
+                    _c.trys.push([2, 5, , 6]);
+                    return [4 /*yield*/, (0, tools_1.delayedCrawlPage)(spiderInfo_1.IndexDelay, reqt_1.getIndex, url + "&since_id=".concat(since_id))];
+                case 3:
+                    //检验getIndex有效性
+                    rsp = _c.sent();
                     // console.log('此时rsp', rsp)
                     // let rsp = await  api.getIndex(url)
                     //验证返回列表
-                    if (rsp.ok !== 1) {
-                        callback(new Error('Failed to fetch rsp.data.ok !== 1'), null);
-                        return [2 /*return*/];
+                    if (!rsp.ok) {
+                        callback(new Error("Failed to fetch rsp.data.ok !== 1"), null);
+                        console.log("url err,!rsp.ok:", url + "&since_id=".concat(since_id));
+                        errNum++;
+                        return [3 /*break*/, 1]; //重新发送请求的尝试
                     }
                     cards = rsp.data.cards;
                     if (cards.length === 0) {
                         next = false;
+                        console.log("本sinceid下card为0");
+                        since_id = rsp.data.cardlistInfo.since_id;
+                        errNum++;
                         callback(null, ids);
-                        return [2 /*return*/];
+                        return [3 /*break*/, 1];
                     }
-                    createdAt = new Date(cards[cards.length - 1].mblog.created_at.replace(/-/g, '/'));
-                    console.log('creatd/target:', createdAt, targetDate);
+                    createdAt = new Date(cards[cards.length - 1].mblog.created_at.replace(/-/g, "/"));
+                    console.log("creatd/target:", createdAt, targetDate);
                     if (createdAt < targetDate) {
-                        console.log('false', createdAt);
+                        console.log("false", createdAt);
                         next = false;
-                        (0, tools_1.saveWeiboDataToFile)(fileData, "".concat(fileData.data[0].blogger, ".json"));
-                        callback(null, ids);
-                        return [2 /*return*/];
+                        return [3 /*break*/, 7];
                     }
-                    return [4 /*yield*/, (0, getList_1.getList)(cards)];
-                case 3:
-                    weiBoRow = _b.sent();
+                    return [4 /*yield*/, (0, getList_1.getList)(cards, function (err, uid) {
+                            console.log(uid, "运行抓取每一条微博总信息条目 enter getList item");
+                            if (err) {
+                                console.error("getList err", err);
+                                return;
+                            }
+                        })];
+                case 4:
+                    weiBoRow = _c.sent();
                     if (weiBoRow != null) {
-                        (_a = fileData.data).push.apply(_a, weiBoRow);
+                        (_b = fileData.data).push.apply(_b, weiBoRow);
+                        (0, tools_1.saveToSql)(weiBoRow);
+                        //此处等待换为sql语句
                     }
                     since_id = rsp.data.cardlistInfo.since_id;
+                    return [3 /*break*/, 6];
+                case 5:
+                    _a = _c.sent();
+                    console.log("getIndex及处理部分报错");
+                    since_id = rsp.data
+                        ? rsp.data.cardlistInfo.since_id
+                        : since_id;
+                    errNum++;
                     return [3 /*break*/, 1];
-                case 4: return [2 /*return*/];
+                case 6: return [3 /*break*/, 1];
+                case 7:
+                    console.log("退出抓取id循环，开始保存");
+                    (0, tools_1.saveWeiboDataToFile)(fileData, "".concat(fileData.data[0].blogger, ".json"));
+                    console.log('errNum:', errNum);
+                    callback(null, ids);
+                    return [2 /*return*/];
             }
         });
     });

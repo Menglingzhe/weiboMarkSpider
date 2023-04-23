@@ -37,12 +37,9 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.commentsHotflow = exports.getIndex = void 0;
-// const axios = require('axios');
 var axios_1 = require("axios");
-// const cookie = require('../tools/cookie-para');
 var cookie_para_1 = require("../tools/cookie-para");
 var spiderInfo_1 = require("../tools/spiderInfo");
-// const spiderInfo = require("../tools/spiderInfo")
 /**
  * 发起列表链接
  **/
@@ -51,38 +48,45 @@ function getIndex(url) {
         var response;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, axios_1.default.get(url, {
+                case 0: return [4 /*yield*/, axios_1.default
+                        .get(url, {
                         headers: {
                             Cookie: cookie_para_1.cookie,
                             Referer: "https://m.weibo.cn/u/".concat(spiderInfo_1.uid),
-                            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
-                            'X-Requested-With': 'XMLHttpRequest',
+                            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+                            "X-Requested-With": "XMLHttpRequest",
                         },
-                    }).catch(function (error) {
-                        console.log('getIndex err');
+                    })
+                        .catch(function (error) {
+                        console.log("getIndexAPI err");
                         if (error.response) {
+                            console.log("// 请求成功发出且服务器也响应了状态码，但状态代码超出了 2xx 的范围");
                             // 请求成功发出且服务器也响应了状态码，但状态代码超出了 2xx 的范围
-                            console.log(error.response.data);
-                            console.log(error.response.status);
-                            console.log(error.response.headers);
+                            console.log("error.response.data", error.response.data);
+                            console.log("error.response.status", error.response.status);
+                            console.log("response.headers", error.response.headers);
                         }
                         else if (error.request) {
+                            console.log("// 请求已经成功发起，但没有收到响应");
                             // 请求已经成功发起，但没有收到响应
                             // `error.request` 在浏览器中是 XMLHttpRequest 的实例，
                             // 而在node.js中是 http.ClientRequest 的实例
-                            console.log(error.request);
+                            console.log("request:", error.request);
                         }
                         else {
                             // 发送请求时出了点问题
-                            console.log('Error', error.message);
+                            console.log("Error", error.message);
                         }
-                        console.log(error.config);
+                        console.log("config", error.config);
+                        console.log("url:", url);
                         return null;
                     })];
                 case 1:
                     response = _a.sent();
-                    console.log('getindex api is run（抓了一列id）');
-                    return [2 /*return*/, response.data];
+                    console.log("getindex api is run（成功抓了一列id）");
+                    if (!response.data)
+                        console.log("response.data=null");
+                    return [2 /*return*/, response.data ? response.data : null];
             }
         });
     });
@@ -94,41 +98,43 @@ function commentsHotflow(url) {
         var response;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, axios_1.default.get(url, {
+                case 0: return [4 /*yield*/, axios_1.default
+                        .get(url, {
                         headers: {
                             Cookie: cookie_para_1.cookie,
                             Referer: "https://m.weibo.cn/u/".concat(spiderInfo_1.uid),
-                            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
-                            'X-Requested-With': 'XMLHttpRequest',
+                            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+                            "X-Requested-With": "XMLHttpRequest",
                         },
-                    }).catch(function (error) {
+                    })
+                        .catch(function (error) {
+                        console.log("commentsHotflowAPI err");
                         if (error.response) {
                             // 请求成功发出且服务器也响应了状态码，但状态代码超出了 2xx 的范围
-                            console.log(error.response.data);
-                            console.log(error.response.status);
-                            console.log(error.response.headers);
+                            console.log("// 请求成功发出且服务器也响应了状态码，但状态代码超出了 2xx 的范围");
+                            console.log("error.response.data", error.response.data);
+                            console.log("error.response.status", error.response.status);
+                            console.log("response.headers", error.response.headers);
                         }
                         else if (error.request) {
                             // 请求已经成功发起，但没有收到响应
                             // `error.request` 在浏览器中是 XMLHttpRequest 的实例，
                             // 而在node.js中是 http.ClientRequest 的实例
-                            console.log(error.request);
+                            console.log("request:", error.request);
                         }
                         else {
                             // 发送请求时出了点问题
-                            console.log('Error', error.message);
+                            console.log("Error", error.message);
                         }
-                        console.log(error.config);
+                        console.log("config", error.config);
                         return null;
                     })];
                 case 1:
                     response = _a.sent();
-                    console.log('getArticle api is run（抓了一列评论）');
-                    return [2 /*return*/, response.data];
+                    console.log("getArticle api is run（成功抓了一列评论）");
+                    return [2 /*return*/, response.data ? response.data : null];
             }
         });
     });
 }
 exports.commentsHotflow = commentsHotflow;
-// exports.commentsHotflow = commentsHotflow
-// exports.getIndex = getIndex
