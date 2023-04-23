@@ -19,11 +19,13 @@
     "fs": "^0.0.1-security",
     "https": "^1.0.0",
     "moment": "^2.29.4",
+    "mysql": "^2.18.1",
     "path": "^0.12.7",
     "querystring": "^0.2.1",
     "request": "^2.88.2"
   },
   "devDependencies": {
+    "@types/mysql": "^2.15.21",
     "@types/node": "^18.15.13",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",

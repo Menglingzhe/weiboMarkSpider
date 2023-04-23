@@ -1,4 +1,4 @@
-import { getPostIdsByDate } from "./getPostId";
+import { getPostIdsByDate } from "./getData/getPostId";
 
 import { uid, end_date } from "./tools/spiderInfo";
 

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var getPostId_1 = require("./getPostId");
+var getPostId_1 = require("./getData/getPostId");
 var spiderInfo_1 = require("./tools/spiderInfo");
 // //调用列表函数
 // getPostIdsByDate(uid, end_date, (err: any, uid: string) => {

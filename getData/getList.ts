@@ -1,4 +1,4 @@
-import { refreshWord } from "./tools/tools";
+import { refreshWord } from "../tools/tools";
 import { getPostInfo } from "./getPostInfo";
 
 //根据主贴id爬取每条微博以及评论

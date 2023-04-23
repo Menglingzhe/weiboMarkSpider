@@ -1023,3 +1023,5 @@ export url: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&
 errNum: 101
 运行获取博主发帖列表 enter date index
 Data saved to file 蔡正磊.json
+
+{"ok":0,"msg":"\u8fd9\u91cc\u8fd8\u6ca1\u6709\u5185\u5bb9","data":{"cards":[]}}

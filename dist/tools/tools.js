@@ -36,7 +36,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.saveToSql = exports.delayedCrawlPage = exports.saveWeiboDataToFile = exports.refreshWord = void 0;
+exports.delayedCrawlPage = exports.saveWeiboDataToFile = exports.refreshWord = void 0;
 var fs = require("fs");
 var path = require("path");
 var chineseAndNumberRegex = /[\u4e00-\u9fa5]+/g;
@@ -87,6 +87,3 @@ function delayedCrawlPage(ms, fn) {
     });
 }
 exports.delayedCrawlPage = delayedCrawlPage;
-function saveToSql(Item) {
-}
-exports.saveToSql = saveToSql;

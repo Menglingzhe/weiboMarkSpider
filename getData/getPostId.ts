@@ -1,12 +1,9 @@
 import { getList } from "./getList";
-import { baseUrl, IndexDelay, maxErrNum } from "./tools/spiderInfo";
-import { getIndex } from "./api/reqt";
+import { baseUrl, IndexDelay, maxErrNum } from "../tools/spiderInfo";
+import { getIndex } from "../api/reqt";
 
-import {
-  delayedCrawlPage,
-  saveWeiboDataToFile,
-} from "./tools/tools";
-import {saveToSql} from "./mysql/sql"
+import { delayedCrawlPage, saveWeiboDataToFile } from "../tools/tools";
+import { saveToSql } from "../db/sql";
 
 // 获取指定时间之前的微博主贴的 ID 列表
 export async function getPostIdsByDate(
@@ -66,7 +63,7 @@ export async function getPostIdsByDate(
         // next = false;
         console.log("本sinceid下card为0");
         oldSinceId = since_id;
-        since_id = rsp.data?rsp.data.cardlistInfo.since_id:since_id;
+        since_id = rsp.data ? rsp.data.cardlistInfo.since_id : since_id;
         errNum++;
         callback(null, ids);
         continue;
@@ -99,7 +96,6 @@ export async function getPostIdsByDate(
 
       oldSinceId = since_id;
       since_id = rsp.data.cardlistInfo.since_id;
-
     } catch {
       console.log("getIndex及处理部分报错");
       since_id = rsp.data ? rsp.data.cardlistInfo.since_id : since_id;
