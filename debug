@@ -1,0 +1,1025 @@
+creatd/target: 2022-08-02T03:36:58.000Z 2022-01-01T00:00:00.000Z
+getArticle api is run（成功抓了一列评论）
+4804943511032938畅通
+getArticle api is run（成功抓了一列评论）
+getArticle api is run（成功抓了一列评论）
+4797981599468232畅通
+getArticle api is run（成功抓了一列评论）
+4797981599468232畅通
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+运行获取博主发帖列表 enter date index
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+getindex api is run（成功抓了一列id）
+getPostIdsByDate err Error: Failed to fetch rsp.data.ok !== 1
+    at c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:82:34
+    at step (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:33:23)
+    at Object.next (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:14:53)
+    at fulfilled (c:\Users\33521\OneDrive\毕业设计\code\spider\weiboMarkSpider\dist\getPostId.js:5:58)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+运行获取博主发帖列表 enter date index
+url err,!rsp.ok: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+进行100次重复请求无果,准备退出
+export url: https://m.weibo.cn/api/container/getIndex?type=uid&value=6582815618&containerid=1076036582815618&since_id=4783146111864501
+退出抓取id循环，开始保存
+=================save file: 蔡正磊.json
+errNum: 101
+运行获取博主发帖列表 enter date index
+Data saved to file 蔡正磊.json

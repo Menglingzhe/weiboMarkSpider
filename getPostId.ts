@@ -5,8 +5,8 @@ import { getIndex } from "./api/reqt";
 import {
   delayedCrawlPage,
   saveWeiboDataToFile,
-  saveToSql,
 } from "./tools/tools";
+import {saveToSql} from "./mysql/sql"
 
 // 获取指定时间之前的微博主贴的 ID 列表
 export async function getPostIdsByDate(
@@ -23,6 +23,7 @@ export async function getPostIdsByDate(
   const targetDate = new Date(targetDateStr);
   let url = `${baseUrl}/api/container/getIndex?type=uid&value=${uid}&containerid=107603${uid}`;
   let since_id = "0";
+  let oldSinceId: string = "0";
   let createdAt = new Date();
 
   while (next) {
@@ -30,8 +31,13 @@ export async function getPostIdsByDate(
     let rsp: any = {};
     if (errNum > maxErrNum) {
       console.log(`进行${maxErrNum}次重复请求无果,准备退出`);
-      console.log("export url:", url + `&since_id=${since_id}`);
-      break;
+      console.log(
+        "export url:",
+        `oldSinceId${oldSinceId}`,
+        url + `&since_id=${since_id}`
+      );
+      continue;
+      // break;
     }
     try {
       //检验getIndex有效性
@@ -45,16 +51,22 @@ export async function getPostIdsByDate(
       //验证返回列表
       if (!rsp.ok) {
         callback(new Error("Failed to fetch rsp.data.ok !== 1"), null);
-        console.log("url err,!rsp.ok:", url + `&since_id=${since_id}`);
+        console.log(
+          "url err,!rsp.ok:",
+          `oldSinceId:${oldSinceId}`,
+          `url:${url}&since_id=${since_id}`
+        );
         errNum++;
+        // since_id = oldSinceId;
         continue; //重新发送请求的尝试
       }
 
       let cards = rsp.data.cards;
       if (cards.length === 0) {
-        next = false;
+        // next = false;
         console.log("本sinceid下card为0");
-        since_id = rsp.data.cardlistInfo.since_id;
+        oldSinceId = since_id;
+        since_id = rsp.data?rsp.data.cardlistInfo.since_id:since_id;
         errNum++;
         callback(null, ids);
         continue;
@@ -67,8 +79,10 @@ export async function getPostIdsByDate(
       if (createdAt < targetDate) {
         console.log("false", createdAt);
         next = false;
-        break;
+        // break;
+        continue;
       }
+      console.log(`since_id:${since_id}畅通`);
 
       let weiBoRow = await getList(cards, (err: any, uid: string) => {
         console.log(uid, "运行抓取每一条微博总信息条目 enter getList item");
@@ -83,7 +97,9 @@ export async function getPostIdsByDate(
         //此处等待换为sql语句
       }
 
+      oldSinceId = since_id;
       since_id = rsp.data.cardlistInfo.since_id;
+
     } catch {
       console.log("getIndex及处理部分报错");
       since_id = rsp.data ? rsp.data.cardlistInfo.since_id : since_id;

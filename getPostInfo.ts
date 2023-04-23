@@ -30,7 +30,7 @@ export async function getPostInfo(postId: string, callback: any) {
         response.data.total_number === 0 ||
         response.data.length == 0
       ) {
-        console.log(`${postId}no mark`);
+        console.log(`postId:${postId}no mark`);
         break;
       }
       console.log(`${postId}畅通`);
@@ -49,6 +49,7 @@ export async function getPostInfo(postId: string, callback: any) {
       });
 
     } catch {
+      console.log(`commentpostId${postId}退出,url:`, url + `&max_id=${max_id}`);
       return totalMark;
     }
     

@@ -70,7 +70,7 @@ function getPostInfo(postId, callback) {
                         }
                         else if (response.data.total_number === 0 ||
                             response.data.length == 0) {
-                            console.log("".concat(postId, "no mark"));
+                            console.log("postId:".concat(postId, "no mark"));
                             return [3 /*break*/, 3];
                         }
                         console.log("".concat(postId, "\u7545\u901A"));
@@ -88,6 +88,7 @@ function getPostInfo(postId, callback) {
                         });
                     }
                     catch (_b) {
+                        console.log("commentpostId".concat(postId, "\u9000\u51FA,url:"), url + "&max_id=".concat(max_id));
                         return [2 /*return*/, totalMark];
                     }
                     return [3 /*break*/, 1];

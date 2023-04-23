@@ -63,8 +63,8 @@ function getPostIdsByDate(uid, targetDateStr, callback) {
                 case 1:
                     if (!next) return [3 /*break*/, 7];
                     rsp = {};
-                    if (errNum > 100) {
-                        console.log("进行100次重复请求无果,准备退出");
+                    if (errNum > spiderInfo_1.maxErrNum) {
+                        console.log("\u8FDB\u884C".concat(spiderInfo_1.maxErrNum, "\u6B21\u91CD\u590D\u8BF7\u6C42\u65E0\u679C,\u51C6\u5907\u9000\u51FA"));
                         console.log("export url:", url + "&since_id=".concat(since_id));
                         return [3 /*break*/, 7];
                     }
@@ -100,6 +100,7 @@ function getPostIdsByDate(uid, targetDateStr, callback) {
                         next = false;
                         return [3 /*break*/, 7];
                     }
+                    console.log("since_id:".concat(since_id, "\u7545\u901A"));
                     return [4 /*yield*/, (0, getList_1.getList)(cards, function (err, uid) {
                             console.log(uid, "运行抓取每一条微博总信息条目 enter getList item");
                             if (err) {
@@ -119,16 +120,14 @@ function getPostIdsByDate(uid, targetDateStr, callback) {
                 case 5:
                     _a = _c.sent();
                     console.log("getIndex及处理部分报错");
-                    since_id = rsp.data
-                        ? rsp.data.cardlistInfo.since_id
-                        : since_id;
+                    since_id = rsp.data ? rsp.data.cardlistInfo.since_id : since_id;
                     errNum++;
                     return [3 /*break*/, 1];
                 case 6: return [3 /*break*/, 1];
                 case 7:
                     console.log("退出抓取id循环，开始保存");
                     (0, tools_1.saveWeiboDataToFile)(fileData, "".concat(fileData.data[0].blogger, ".json"));
-                    console.log('errNum:', errNum);
+                    console.log("errNum:", errNum);
                     callback(null, ids);
                     return [2 /*return*/];
             }
