@@ -69,13 +69,13 @@ function refreshWord(totalMark) {
     if (totalMark.length != 0 && totalMark != null) {
         totalMark = totalMark.match(chineseAndNumberRegex);
         if (totalMark == null) {
-            return '';
+            return "";
         }
     }
     else {
-        return '';
+        return "";
     }
-    return totalMark.join('');
+    return totalMark.join("");
 }
 exports.refreshWord = refreshWord;
 //保存为文件
@@ -85,7 +85,7 @@ function saveWeiboDataToFile(data, fileName) {
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    console.log('=================save file:', fileName);
+                    console.log("=================save file:", fileName);
                     filePath = path.join(__dirname, fileName);
                     return [4 /*yield*/, fs.writeFile(filePath, JSON.stringify(data), function (err) {
                             if (err) {
