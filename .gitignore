@@ -1,6 +1,6 @@
 node_modules/
 
-dist/
+.dist/
 
 毕设讨论.md
 
@@ -10,6 +10,4 @@ debug
 
 package-lock.json
 
-.gitignore
-
-mook/
+.mook/
