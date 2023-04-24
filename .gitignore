@@ -11,3 +11,5 @@ debug
 package-lock.json
 
 .mook/
+
+*.ts
