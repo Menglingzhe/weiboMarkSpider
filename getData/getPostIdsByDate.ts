@@ -11,10 +11,11 @@ export async function getPostIdsByDate(
   targetDateStr: string,
   callback: any
 ) {
+  console.log('uid',uid)
   let ids: string[] = [];
-  let fileData: any = {
-    data: [],
-  };
+  // let fileData: any = {
+  //   data: [],
+  // };
   let errNum: number = 0;
   let next = true;
   const targetDate = new Date(targetDateStr);
@@ -24,7 +25,6 @@ export async function getPostIdsByDate(
   let createdAt = new Date();
 
   while (next) {
-    // url = `${url};
     let rsp: any = {};
     if (errNum > maxErrNum) {
       console.log(`进行${maxErrNum}次重复请求无果,准备退出`);
@@ -33,15 +33,15 @@ export async function getPostIdsByDate(
         `oldSinceId${oldSinceId}`,
         url + `&since_id=${since_id}`
       );
+      next = false;
       continue;
-      // break;
     }
     try {
       //检验getIndex有效性
       rsp = await delayedCrawlPage(
         IndexDelay,
         getIndex,
-        url + `&since_id=${since_id}`
+        url + `&since_id=${since_id}`,uid
       );
       // console.log('此时rsp', rsp)
       // let rsp = await  api.getIndex(url)
@@ -60,7 +60,6 @@ export async function getPostIdsByDate(
 
       let cards = rsp.data.cards;
       if (cards.length === 0) {
-        // next = false;
         console.log("本sinceid下card为0");
         oldSinceId = since_id;
         since_id = rsp.data ? rsp.data.cardlistInfo.since_id : since_id;
@@ -76,12 +75,11 @@ export async function getPostIdsByDate(
       if (createdAt < targetDate) {
         console.log("false", createdAt);
         next = false;
-        // break;
         continue;
       }
       console.log(`since_id:${since_id}畅通`);
 
-      let weiBoRow = await getList(cards, (err: any, uid: string) => {
+      let weiBoRow = await getList(cards, uid, (err: any, uid: string) => {
         console.log(uid, "运行抓取每一条微博总信息条目 enter getList item");
         if (err) {
           console.error("getList err", err);
@@ -89,7 +87,8 @@ export async function getPostIdsByDate(
         }
       });
       if (weiBoRow != null) {
-        fileData.data.push(...weiBoRow);
+        // fileData.data.push(...weiBoRow);
+        console.log("use saveToSql(weiBORow)");
         saveToSql(weiBoRow);
         //此处等待换为sql语句
       }
@@ -104,8 +103,10 @@ export async function getPostIdsByDate(
     }
   }
 
-  console.log("退出抓取id循环，开始保存");
-  saveWeiboDataToFile(fileData, `${fileData.data[0].blogger}.json`);
-  console.log("errNum:", errNum);
-  callback(null, ids);
+  // console.log("退出抓取id循环，开始保存");
+  // await saveWeiboDataToFile(fileData, `${fileData.data[0].blogger}.json`);
+  
+  callback(new Error("save Data"), ids);
+  console.log("准备退出抓取id循环,errNum:", errNum);
+  return;
 }

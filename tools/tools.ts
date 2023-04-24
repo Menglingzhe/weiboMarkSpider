@@ -17,16 +17,18 @@ export function refreshWord(totalMark:any) {
 }
 
 //保存为文件
-export function saveWeiboDataToFile(data:any, fileName:string) {
+export async function saveWeiboDataToFile(data:any, fileName:string) {
   console.log('=================save file:', fileName)
   const filePath = path.join(__dirname, fileName);
-  fs.writeFile(filePath, JSON.stringify(data), err => {
+  await fs.writeFile(filePath, JSON.stringify(data), err => {
     if (err) {
       console.error(`Failed to save data to file ${fileName}: ${err}`);
     } else {
       console.log(`Data saved to file ${fileName}`);
     }
+    return 
   });
+  return
 }
 
 export async function delayedCrawlPage(ms:number, fn:any, ...args:any[]) {

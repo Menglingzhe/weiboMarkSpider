@@ -1,13 +1,14 @@
- import { baseUrl ,commentDelay} from "../tools/spiderInfo";
+import { baseUrl, commentDelay } from "../tools/spiderInfo";
 import { commentsHotflow } from "../api/reqt";
 import { delayedCrawlPage } from "../tools/tools";
 
 // 获取微博主贴的详细信息和评论内容 comment ==false
-export async function getPostInfo(postId: string, callback: any) {
+export async function getPostInfo(postId: string, uid: string, callback: any) {
   let url: string = `${baseUrl}/comments/hotflow?id=${postId}&mid=${postId}&max_id_type=0`;
   let max_id: number = 1;
   let totalMark: string = "";
   // let delayMark: string = "";//五天后
+  let interactive: boolean = false; //博主是否回应
 
   while (max_id != 0) {
     if (max_id == 1) max_id = 0;
@@ -16,7 +17,8 @@ export async function getPostInfo(postId: string, callback: any) {
     const response = await delayedCrawlPage(
       commentDelay,
       commentsHotflow,
-      url + `&max_id=${max_id}`
+      url + `&max_id=${max_id}`,
+      uid
     );
 
     try {
@@ -44,17 +46,18 @@ export async function getPostInfo(postId: string, callback: any) {
         if (item.comments !== false) {
           //二级回复
           for (let i = 0; i < item.comments.length; i++) {
+            if ((item.comments[i].user.id = uid)) {
+              interactive = true;
+            }
             totalMark += item.comments[i].text;
           }
         }
       });
-
     } catch {
       console.log(`commentpostId${postId}退出,url:`, url + `&max_id=${max_id}`);
-      return totalMark;
+      return [totalMark, interactive];
     }
-    
   }
 
-  return totalMark;
+  return [totalMark, interactive];
 }

@@ -1,11 +1,10 @@
 import axios from "axios";
 import { cookie } from "../tools/cookie-para";
 
-import { uid } from "../tools/spiderInfo";
 /**
  * 发起列表链接
  **/
-export async function getIndex(url: string) {
+export async function getIndex(url: string,uid:string) {
   // console.log('getIndexurl:',url)
   const response: any = await axios
     .get(url, {
@@ -48,7 +47,7 @@ export async function getIndex(url: string) {
 }
 
 //评论抓取
-export async function commentsHotflow(url: string) {
+export async function commentsHotflow(url: string, uid: string) {
   // console.log("commentsHotflow:", url);
   const response: any = await axios
     .get(url, {

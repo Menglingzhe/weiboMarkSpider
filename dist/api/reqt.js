@@ -35,15 +35,17 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.commentsHotflow = exports.getIndex = void 0;
-var axios_1 = require("axios");
+var axios_1 = __importDefault(require("axios"));
 var cookie_para_1 = require("../tools/cookie-para");
-var spiderInfo_1 = require("../tools/spiderInfo");
 /**
  * 发起列表链接
  **/
-function getIndex(url) {
+function getIndex(url, uid) {
     return __awaiter(this, void 0, void 0, function () {
         var response;
         return __generator(this, function (_a) {
@@ -52,7 +54,7 @@ function getIndex(url) {
                         .get(url, {
                         headers: {
                             Cookie: cookie_para_1.cookie,
-                            Referer: "https://m.weibo.cn/u/".concat(spiderInfo_1.uid),
+                            Referer: "https://m.weibo.cn/u/".concat(uid),
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
                             "X-Requested-With": "XMLHttpRequest",
                         },
@@ -93,7 +95,7 @@ function getIndex(url) {
 }
 exports.getIndex = getIndex;
 //评论抓取
-function commentsHotflow(url) {
+function commentsHotflow(url, uid) {
     return __awaiter(this, void 0, void 0, function () {
         var response;
         return __generator(this, function (_a) {
@@ -102,7 +104,7 @@ function commentsHotflow(url) {
                         .get(url, {
                         headers: {
                             Cookie: cookie_para_1.cookie,
-                            Referer: "https://m.weibo.cn/u/".concat(spiderInfo_1.uid),
+                            Referer: "https://m.weibo.cn/u/".concat(uid),
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
                             "X-Requested-With": "XMLHttpRequest",
                         },

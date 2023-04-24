@@ -1025,3 +1025,5 @@ errNum: 101
 Data saved to file 蔡正磊.json
 
 {"ok":0,"msg":"\u8fd9\u91cc\u8fd8\u6ca1\u6709\u5185\u5bb9","data":{"cards":[]}}
+
+ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
