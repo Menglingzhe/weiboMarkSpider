@@ -1,17 +1,16 @@
 node_modules/
 
+db/index.ts
+
 dist/
-
-毕设讨论.md
-
-package-lock.json
 
 mook/
 
-*.ts
+毕设讨论.md
 
 uidList.json
 
-db/
+cookie-para.ts
 
-/debug
+
+
