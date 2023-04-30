@@ -1,18 +1,20 @@
 import axios from "axios";
-import { cookie } from "../tools/cookie-para";
+import { checkCookie } from "../tools/cookie-para";
+// import { cookie } from "../tools/cookie-para";
+import { userAgent } from "../tools/tools";
 
 /**
  * 发起列表链接
  **/
-export async function getIndex(url: string,uid:string) {
+export async function getIndex(url: string, uid: string) {
   // console.log('getIndexurl:',url)
+  const cookie: string = checkCookie();
   const response: any = await axios
     .get(url, {
       headers: {
         Cookie: cookie,
         Referer: `https://m.weibo.cn/u/${uid}`,
-        "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+        "User-Agent": userAgent(),
         "X-Requested-With": "XMLHttpRequest",
       },
     })
@@ -41,7 +43,7 @@ export async function getIndex(url: string,uid:string) {
       return null;
     });
   console.log("getindex api is run（成功抓了一列id）");
-  if(!response.data) console.log("response.data=null");
+  if (!response.data) console.log("response.data=null");
 
   return response.data ? response.data : null;
 }
@@ -49,13 +51,13 @@ export async function getIndex(url: string,uid:string) {
 //评论抓取
 export async function commentsHotflow(url: string, uid: string) {
   // console.log("commentsHotflow:", url);
+  const cookie: string = checkCookie();
   const response: any = await axios
     .get(url, {
       headers: {
         Cookie: cookie,
         Referer: `https://m.weibo.cn/u/${uid}`,
-        "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+        "User-Agent": userAgent(),
         "X-Requested-With": "XMLHttpRequest",
       },
     })

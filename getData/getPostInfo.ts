@@ -41,22 +41,38 @@ export async function getPostInfo(postId: string, uid: string, callback: any) {
       let markList = response.data.data;
       max_id = response.data.max_id;
       // console.log(max_id , response.data.max_id)
-      markList.forEach((item: any) => {
-        totalMark += item.text;
-        if (item.comments !== false) {
-          //二级回复
-          for (let i = 0; i < item.comments.length; i++) {
-            if ((item.comments[i].user.id = uid)) {
-              interactive = true;
+      for (let i = 0; i < markList.length; i++){
+        let item = markList[i];
+          totalMark += item.text;
+          // console.log("item:", item);
+          if (!!item.comments) {
+            //二级回复
+            // console.log('该评论有回复bugfix')
+            for (let i = 0; i < item.comments.length; i++) {
+              if (String(item.comments[i].user.id) === uid) interactive = true;
+              // console.log("评论的回复", item.comments[i].text);
+              totalMark += item.comments[i].text;
             }
-            totalMark += item.comments[i].text;
           }
-        }
-      });
+      }
+      // markList.forEach((item: any) => {
+      //   totalMark += item.text;
+      //   console.log("item:", item);
+      //   if (!!item.comments) {
+      //     //二级回复
+      //     console.log('该评论有回复')
+      //     for (let i = 0; i < item.comments.length; i++) {
+      //       if (String(item.comments[i].user.id) === uid) interactive = true;
+      //       console.log("评论的回复", item.comments[i].text);
+      //       totalMark += item.comments[i].text;
+      //     }
+      //   }
+      // });
     } catch {
       console.log(`commentpostId${postId}退出,url:`, url + `&max_id=${max_id}`);
       return [totalMark, interactive];
     }
+    
   }
 
   return [totalMark, interactive];
