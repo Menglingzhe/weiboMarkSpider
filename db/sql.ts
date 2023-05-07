@@ -73,7 +73,19 @@ export function creatNameTableSql(name: string) {
   console.log("结束SQL操作");
 }
 
+export function exportTableSql(name: string) {
+  console.log("开始导出SQL操作");
+  let sqlStr = `
+    SELECT * FROM weibo${name} INTO OUTFILE './weibo${name}.sql';
+`;
 
+  db.query(sqlStr, (err, results) => {
+    if (err) return console.log(err.message);
+  });
+  console.log("导出结束,name:", name);
+  console.log("导出语句：", sqlStr);
+  console.log("结束SQL操作");
+}
 
 // export function testSaveToSql() {
 //   console.log("开始SQL操作");
